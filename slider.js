@@ -23,7 +23,7 @@ function autoSlide(){
 function setTimer(){
   return setInterval(function(){
     autoSlide()
-  },3000)
+  },1500)
 }
 let timer = setTimer()
 $('#viewport').on('mouseenter',function(){
