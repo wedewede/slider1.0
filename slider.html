@@ -13,7 +13,7 @@
     img{
       width:305px;
       height:457px;
-    }
+
     .images{
       display:flex;
       align-items:flex-start;
@@ -29,13 +29,14 @@
   </style>
 </head>
 <body>
-<div class="viewport" id="viewport">
-  <div class="images" id="images">
-    <img src="./img/1.jpg" alt="风景图1">
-    <img src="./img/2.jpg" alt="风景图2">
-    <img src="./img/3.jpg" alt="风景图3">
-    <img src="./img/4.jpg" alt="风景图4">
-  </div>
+<div class="wrapper">
+  <div class="viewport" id="viewport">
+    <div class="images" id="images">
+      <img src="./img/1.jpg" alt="风景图1">
+      <img src="./img/2.jpg" alt="风景图2">
+      <img src="./img/3.jpg" alt="风景图3">
+      <img src="./img/4.jpg" alt="风景图4">
+    </div>
   </div>
   <div id="buttons">
     <button class="red">按钮1</button>
@@ -43,8 +44,7 @@
     <button>按钮3</button>
     <button>按钮4</button>
   </div>
-  <script src="./slider.js">
-
-  </script>
+</div>
+<script src="./slider.js"></script>
 </body>
 </html>
